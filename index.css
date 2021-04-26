@@ -1,0 +1,101 @@
+.landing{
+    background-image: url(/Backgroundimages/landing.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight:10;
+    }
+.happybreak{
+    height: 200px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+        }
+    #happybreak1{
+    color: gray;
+    background-color: blanchedalmond;
+    height: 100px;
+    width: 150px;
+    }
+    #happybreak2{
+        color: black;
+        background-color: #F15A29;
+        height: 100px;
+        width: 150px;
+        }
+    .meals{
+            display: flex;
+            flex-direction: row;
+                   }
+#breakfast{
+    background-image: url(/foodtop/breakfast.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    font-style: italic;
+    color: white;
+    width: 300px;
+    text-align: center;
+      }
+#lunch{
+    background-image: url(/foodtop/lunch.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    font-style: italic;
+    color: white;
+    width: 300px;
+    text-align: center;
+        }
+#dinner{
+    background-image: url(/foodtop/dinner.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    font-style: italic;
+    color: white;
+    width: 300px;
+    text-align: center;
+        }
+.fastfoodbackground{
+        height: 900px;
+        text-align: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: row;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fastfood{
+    padding-left: 30px;
+    }
+    .fastfoodimage{
+        border: 2px
+    }
+    .drinksparagraph{
+        padding-right: 30px;
+    }
+    .drinksimage{
+       display: flex;
+       flex-direction: row;
+    }
+.backgroundmenu{
+    background-image: url(/Backgroundimages/subscribe.jpg);
+    height: 300px;
+    color: red;
+}
+#logos{
+    text-align: center;
+    color: white;
+}
+#fastfoodbackground{
+    color: red;
+}
+.navigation{
+    background-image: url(/Backgroundimages/foodsBg.jpg);
+}
+.fastfoodbackground{
+    height: 150px;
+}
