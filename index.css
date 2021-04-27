@@ -48,7 +48,7 @@
     text-align: center;
         }
 #dinner{
-    background-image: url(foodtop/dinner.jpg);
+    background-image: url(/foodtop/dinner.jpg);
     height: 200px;
     background-repeat: no-repeat;
     font-style: italic;
