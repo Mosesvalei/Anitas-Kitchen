@@ -30,7 +30,7 @@
             flex-direction: row;
                    }
 #breakfast{
-    background-image: url(/foodtop/breakfast.jpg);
+    background-image: url(foodtop/breakfast.jpg);
     height: 200px;
     background-repeat: no-repeat;
     font-style: italic;
@@ -39,7 +39,7 @@
     text-align: center;
       }
 #lunch{
-    background-image: url(/foodtop/lunch.jpg);
+    background-image: url(foodtop/lunch.jpg);
     height: 200px;
     background-repeat: no-repeat;
     font-style: italic;
@@ -48,7 +48,7 @@
     text-align: center;
         }
 #dinner{
-    background-image: url(/foodtop/dinner.jpg);
+    background-image: url(foodtop/dinner.jpg);
     height: 200px;
     background-repeat: no-repeat;
     font-style: italic;
@@ -82,7 +82,7 @@
        flex-direction: row;
     }
 .backgroundmenu{
-    background-image: url(/Backgroundimages/subscribe.jpg);
+    background-image: url(Backgroundimages/subscribe.jpg);
     height: 300px;
     color: red;
 }
@@ -94,7 +94,7 @@
     color: red;
 }
 .navigation{
-    background-image: url(/Backgroundimages/foodsBg.jpg);
+    background-image: url(Backgroundimages/foodsBg.jpg);
 }
 .fastfoodbackground{
     height: 150px;
