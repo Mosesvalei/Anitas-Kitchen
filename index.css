@@ -1,3 +1,9 @@
+*{margin: 0%;
+ padding: 0%;
+ box-sizing: border-box;
+}
+
+
 .landing{
     background-image: url(Backgroundimages/landing.jpg);
     height: 400px;
@@ -7,54 +13,112 @@
     font-size: 20px;
     font-weight:10;
     }
-.happybreak{
-    height: 200px;
-    width: 300px;
+
+   #ph tr :first-child{
+        background-color: rgba(26, 15, 15, 0.561);
+        color: black;
+        }
+    #ph tr :last-child{
+            background-color: #F15A29;
+            color: white;
+            }
+    #hh, #pt{
+        border: 1px solid black;
+        padding: 2em; 
+        }
+    #ph table{
+        border-spacing: 0px;
+        padding: 1em;
+        text-align: center;
+        padding: 6em;
+        width: 100%;
+        height: 100px;
+        margin: 2em auto;
+            }
+            #hour{
+               background-color: white; 
+               color: black;
+            }
+            #time{
+                background-color: #F15A29;
+                color: white;
+
+            }
+    #ph{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        height: 250px;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        margin-right: 10px;
+        text-align: center;
+                            }
+        .bld{
+        display: flex;
+    flex-direction: row;
+        justify-content: space-evenly;
+        }
+    .Brk{
+        /* border: 1px solid black; */
+        background-image: url(/foodtop/breakfast.jpg);
+        }
+    .Lch{
+        /* border: 1px solid black; */
+        background-image: url(/foodtop/lunch.jpg);
+    }
+    .Dnr{
+        /* border: 1px solid black; */
+        background-image: url(/foodtop/dinner.jpg);
+    }
+    .Brk, .Lch, .Dnr{
+        padding: 2em;
+        height: 180px;
+        /* border: 1px solid black; */
+        width: 50%;
+    }
+    .happybreak{
     align-items: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size:large;
         }
-    #happybreak1{
-    color: gray;
-    background-color: blanchedalmond;
-    height: 100px;
-    width: 150px;
-    }
-    #happybreak2{
-        color: black;
+    #happybreak{
+         color: gray;
+         background-color: white;
+         text-align: center;
+        }
+    #partytime{
+        color: white;
         background-color: #F15A29;
-        height: 100px;
-        width: 150px;
-        }
-    .meals{
-            display: flex;
-            flex-direction: row;
-                   }
+        text-align: center;
+    }
+       
 #breakfast{
     background-image: url(foodtop/breakfast.jpg);
-    height: 200px;
     background-repeat: no-repeat;
     font-style: italic;
     color: white;
-    width: 300px;
     text-align: center;
+    background-size: cover;
       }
-#lunch{
+      #lunch{
     background-image: url(foodtop/lunch.jpg);
-    height: 200px;
     background-repeat: no-repeat;
     font-style: italic;
     color: white;
-    width: 300px;
     text-align: center;
+    background-size: cover;
         }
 #dinner{
-    background-image: url(/foodtop/dinner.jpg);
-    height: 200px;
+    background-image: url(foodtop/dinner.jpg);
     background-repeat: no-repeat;
     font-style: italic;
     color: white;
-    width: 300px;
     text-align: center;
+    background-size: cover;
         }
 .fastfoodbackground{
         height: 900px;
@@ -63,28 +127,49 @@
         display: flex;
         flex-direction: row;
     }
-    .container{
+    .container1{
         display: flex;
+        flex-direction: row;
         align-items: center;
+        height: 50%;
+        width: 80%;
+        margin-top: 2em;
+        margin-bottom: 3em;
+        padding: 3em;
+        /* margin: 5em auto; */
         justify-content: center;
     }
     .fastfood{
-    padding-left: 30px;
+    margin-left: 50px;
+    padding: 2em;
     }
     .fastfoodimage{
-        border: 2px
+        /* border: 2px */
+        padding: 10px;
+        box-shadow: 3px 3px 5px #ccc, 3px 3px 5px #ccc, -3px -3px 5px #ccc;
+    }
+    .container2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 50%;
+        width: 80%;
+        margin-top: 2em;
+        margin-bottom: 3em;
+        padding: 3em;
+        /* margin: 5em auto; */
+        justify-content: center;
     }
     .drinksparagraph{
-        padding-right: 30px;
+    margin-right: 50px;
+    padding: 2em;
+    max-width: 300px;
+    width: 50%;
+    text-align: right;
     }
     .drinksimage{
-       display: flex;
-       flex-direction: row;
-    }
-.backgroundmenu{
-    background-image: url(Backgroundimages/subscribe.jpg);
-    height: 300px;
-    color: red;
+        padding: 10px;
+        box-shadow: 3px 3px 5px #ccc, 3px 3px 5px #ccc, -3px -3px 5px #ccc;        }
 }
 #logos{
     text-align: center;
@@ -95,7 +180,77 @@
 }
 .navigation{
     background-image: url(Backgroundimages/foodsBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    padding: 2em;
+    padding: 3em;
+    width: 100%;
+    }
+    .navigation tr: :first-child{
+        color: #F15A29;
+    }
+.navigation table{
+    background-color: white;
+    padding: 2em;
 }
+.Dr{
+        padding:1em;
+}
+#cbc{
+    color: #F15A29;
+}
+
 .fastfoodbackground{
     height: 150px;
 }
+.Customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+.Hcustomer{
+    max-width: 300px;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+}
+.Menu{
+max-width: 300px;
+padding: 2em;
+}
+.footer{
+    text-align: center;
+    background-color: #F15A29;
+    color: white;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.backgroundmenu{
+    background-image: url(Backgroundimages/subscribe.jpg);
+    height: 250px;
+    border: 3px solid black;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #sub-button{
+      background-color: #F15A29;
+  }
+  .backgroundmenu h1 {
+    color: #ccc;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+  }
