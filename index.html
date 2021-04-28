@@ -8,25 +8,31 @@
     <link rel="Stylesheet" href="index.css" type="text/css">
 </head>
 <body>
-    <div class="landing"> 
+    
+ <div class="landing"> 
         <img src="./Logobig/logoBig.png" alt="Logo Menu">
         <p> We Provide The Best Food</p>
     <p> At the <strong>Right Price</strong> </p>
-    </div>
-    <div class="meals">
-    <div class="happybreak">
-    <h2 id="happybreak1">Happy Hour</h2>
-    <h2 id="happybreak2">Party Time</h2>
 </div>
- <h3 id="breakfast">Breakfast</h3>
-<h3 id="lunch">Lunch</h3>
-<h3 id="dinner">Dinner</h3>
+
+<div id="ph">
+<table>
+   <div id="hour"><tr><td>Happy Hour</td></tr></div> 
+   <div id="time"><tr><td>Party Time</td></tr></div> 
+</table>
+ 
+    <div class="Brk"><h1>Breakfast</h1></div>
+    <div class="Lch"><h1>lunch</h1></div>
+    <div class="Dnr"><h1>Dinner</h1></div>
+   
+   
 </div>
-<div class="container">
+
+<div class="container1">
         <div class="fastfoodimage">
     <img src="./Fastfood/fastFood1.jpg" alt="Fastfood1">
     <img src="./Fastfood/fastFood2.jpg" alt="Fastfood2">
-    </div>
+        </div>
     <div class="fastfood">
         <h1>Fast Food</h1>
         <h3>You'll love our delicious food</h3>
@@ -34,9 +40,9 @@
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-        </div>
-        </div>
-    <div class="container">
+    </div>
+ </div>
+   <div class="container2">
         <div class="drinksparagraph">
     <h1>Drinks</h1>
     <h3>We also produce delicious drinks</h3>
@@ -49,49 +55,64 @@
     <img src="./Drinks/drink1.jpg" alt="Drinks1">
     <img src="./Drinks/drink2.jpg" alt="Drinks2">
     </div>
-        </div>
-        <div class="navigation">
-    <nav>
-        <a href="#Fastfood">Fast Food</a>
-        <a href="#Drinks">Drinks</a>
-        <a href="#Chicken">Chicken</a>
-        <a href="#Rice">Fast Food</a>
-    </nav>
-    
-    <div class="fastfoodbackground" id="fastfoodbackground"> 
-    <h2>Fast Food</h2>
-    <img src="./Fastfoodimages/chickenBurger.jpg" alt="Chicken burger">
-    <h3>Chicken burger</h3>
-    <img src="./Fastfoodimages/beefBurger.jpg" alt="Beef burger">
-    <h3>Beef Burger</h3>
-    <img src="./Fastfoodimages/chickenPizza.jpg" alt="Chicken Pizza">
-    <h3>Chicken Pizza</h3>
-    </div>
-</div>
-    <div>
+ </div>
+<div class="navigation">
+    <table>
+        <nav>
+            <tr>
+               <a class="FF" href="#f"><th>Fast Food</th> </a>
+               <a class="Dr" href="#b"><th>Drinks</th> </a>
+               <a class="Dr" href="#c"><th>Chicken</th> </a>
+               <a class="Dr" href="#r"><th>Rice</th> </a>
+            </tr>
+        </nav>
+    <tr>
+        <td> <img src="./Fastfoodimages/chickenBurger.jpg" alt="Chickenburger"></td>
+        <td> <img src="./Fastfoodimages/beefBurger.jpg" alt="Beefburger"></td>
+        <td> <img src="./Fastfoodimages/chickenPizza.jpg" alt="Chickenpizza"></td>
+    </tr>
+    <tr id="cbc">
+        <td>Chickenburger</td>
+        <td>Beefburger</td>
+        <td>Chickenpizza</td>
+    </tr>
+    </table>
+  </div>
+<div class="Customer">
+    <div class="Hcustomer">
     <h2>Our Happy Customers</h1>
     <P>Georg Richard</P>
-    <p>Greadt Food! Menu is awesom, there foods are not only greatbut also in the right price.
+    <p>Great Food! Menu is awesom, there foods are not only greatbut also in the right price.
         I'll highly recommend them.</p>
         <img src="./Customerimages/p1.png" alt="customer 1">
         <img src="./Customerimages/p2.png" alt="customer 2">
         <img src="./Customerimages/p3.png" alt="customer 3">
-    </div>
-    <div>
+</div>
+<div class="Menu">
        <h3>About Menu</h3>
     <p>We are a menu little of 7 members. 
         Ut wisi enim a minim veniam, quis nos trudexer ci tation uilamcorper suscipi lobortis nisl ul aliquip ex ea commodo conse qut. 
         Duisau tem vel eum iriure dolor in</p>
-    </div>
-    <div class="backgroundmenu" id="logos">
-    <p>Get our daily food items delivered to your email</p>
+</div>
+</div>
+<div class="backgroundmenu" id="logos">
+        <h1>Get our daily food items delivered to our email</h1>
+        <form action="#" method="POST">
+        <input type="email" placeholder="Your email" name="email" id="email">
+        <input id="sub-button" type="submit" value="Subscribe">
+        </form>
+     </div>
+<div class="footer">
+    <div class="menu">
     <img src="./Footerlogos/logo_white.png" alt="Logo_white">
     <p>MENU</p>
+</div>
     <P>That's What We Are</P>
     <img src="./Footerlogos/facebook.png" alt="Facebook">
     <img src="./Footerlogos/twitter.png" alt="Twitter">
     <img src="./Footerlogos/pinterest.png" alt="Pinterest">
     <p>2016 Menu Restaurant</p>
-   </div>
+</div>
+  
 </body>
 </html>
